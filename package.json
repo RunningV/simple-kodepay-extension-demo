@@ -21,7 +21,7 @@
     "vite": "^5.0.11"
   },
   "displayName": "Simple Vite Chrome Extension Boilerplate",
-  "name": "simple-vite-chrome-extension",
+  "name": "simple-kodepay-extension-demo",
   "overrides": {
     "@crxjs/vite-plugin": "$@crxjs/vite-plugin"
   },
@@ -39,7 +39,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/mubaidr/simple-vite-chrome-extension"
+    "url": "https://github.com/RunningV/simple-kodepay-extension-demo"
   },
   "scripts": {
     "build": "vite build",

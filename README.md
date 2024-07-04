@@ -1,5 +1,4 @@
-# simple-vite-chrome-extension
-
+# simple-kodepay-extension-demo
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
@@ -52,3 +51,6 @@ pnpm build
 ```
 
 And then pack files under `dist`, you can upload `dist.crx` or `dist.xpi` to appropriate extension store.
+
+## Access kodepay service
+[kodepay guide](./DevelopmentGuide.md) | [kodepay 指南](./DevelopmentGuide-zh.md)
