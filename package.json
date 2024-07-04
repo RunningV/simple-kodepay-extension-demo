@@ -1,0 +1,52 @@
+{
+  "dependencies": {
+    "kodepay": "^2.1.5"
+  },
+  "description": "A simplest Vite project for building Chrome extensions",
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.22",
+    "@types/eslint": "^8.56.2",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "autoprefixer": "^10.4.16",
+    "chrome-types": "^0.1.250",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8.4.33",
+    "prettier": "^3.2.1",
+    "sass": "^1.69.7",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
+  },
+  "displayName": "Simple Vite Chrome Extension Boilerplate",
+  "name": "simple-vite-chrome-extension",
+  "overrides": {
+    "@crxjs/vite-plugin": "$@crxjs/vite-plugin"
+  },
+  "pnpm": {
+    "overrides": {},
+    "peerDependencyRules": {
+      "allowAny": [],
+      "allowedDeprecatedVersions": {
+        "sourcemap-codec": "1.4.8"
+      },
+      "allowedVersions": {},
+      "ignoreMissing": []
+    }
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mubaidr/simple-vite-chrome-extension"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint . --fix --ext js,mjs,cjs,ts,mts,cts",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "version": "0.0.1"
+}
